@@ -2,7 +2,6 @@
 const menuBtn = document.querySelector('.dropdown-btn')
 const menu = document.querySelector('.dropdown-content')
 
-<<<<<<< update/femcoders
 
 //forms submit
 const formReset = document.querySelector('#card');
@@ -21,7 +20,6 @@ fbtn.addEventListener('click', async(event)=>{
    formReset.reset();
 })
 
-=======
 menuBtn.addEventListener('click', (event) => {
     event.stopPropagation(); 
     menu.classList.toggle('active');
@@ -32,4 +30,3 @@ window.addEventListener('click', (event) => {
         menu.classList.remove('active');
     }
 });
->>>>>>> main
