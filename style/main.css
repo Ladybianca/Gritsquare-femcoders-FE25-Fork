@@ -10,9 +10,11 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
     background-color: #ffffa8;
     color: black;
-    max-height: 100vh;
+    min-height: 100vh;
     font-family: chicle;
     text-align: center;
 }
@@ -25,7 +27,7 @@ header {
 }
 
 main {
-    flex-grow: 1;
+    flex: 1;
 }
 
 .logo {
@@ -86,8 +88,17 @@ a {
 
 /* Footer */
 footer {
-    height: 3rem;
+    padding: 0.5rem;
     background-color: var(--peach);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#foot-sec2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 }
 
 /* bara la style för att se var darkmode knappen ska vara */
@@ -141,7 +152,4 @@ footer {
     .mobile-nav {
         display: none !important;
     }
-
-
-
 }
