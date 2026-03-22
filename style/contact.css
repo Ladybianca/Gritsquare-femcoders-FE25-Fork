@@ -1,0 +1,32 @@
+
+/* Har gjort contact enligt conva designen*/
+input {
+
+    border-radius:20px;
+    border : solid #fcab31 5px;
+}
+
+#lTb {
+    width: 250px;
+    height:150px;
+    font-family: sans-serif;
+    border: #fcab31 solid 5px;
+    border-radius: 10px;
+}
+
+#smTb {
+    width:100px;
+    height:30px;
+}
+
+#mTb {
+    height:20px;
+}
+
+button {
+    background-color: hotpink;
+    font-family: chicle;
+    border: #fcab31 solid 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
