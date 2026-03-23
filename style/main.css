@@ -19,6 +19,13 @@ body {
     text-align: center;
 }
 
+body.dark {
+    background-color:rgb(235, 208, 56); 
+    color:black;
+}
+
+
+
 header {
     padding: 0.5rem;
     display: flex;
@@ -202,4 +209,6 @@ footer {
     .mobile-nav {
         display: none !important;
     }
+
+
 }
