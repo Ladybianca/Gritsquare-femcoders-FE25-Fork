@@ -29,12 +29,17 @@ Good Vibes is a vibrant, welcoming message board designed to create a community 
 ## Getting Started
 
 1. Navigate to the Good Vibes message board
-2. Click on "Contact" to get in touch with us
-3. Click to add your message to the board
-4. Share the positivity and spread good vibes!
+2. Press the heartshaped button to start writing
+3. Click on "Contact" to get in touch with us
+4. Click to add your message to the board
+5. Share the positivity and spread good vibes!
 
 
 *Spread positivity. Share good vibes. Make the world a happier place.* ✨
+
+
+## Contributors
+Big thanks to all contributors!
 
 ## Sources
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="Facebook--Streamline-Simple-Icons" height="24" width="24">
