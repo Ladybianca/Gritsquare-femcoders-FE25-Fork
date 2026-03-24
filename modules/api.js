@@ -104,12 +104,35 @@ function render(text, id, createdAt, likes, gifUrl) {
     messageContainer.appendChild(noteCard);
 }
 
-//öppnar och stänger card
+//öppnar och stänger message formulär + guidelines
 const openBtn = document.querySelector('#openCard');
 const card = document.querySelector('#card');
+const guidelinesCard = document.querySelector('#guidelines');
+const closeBtn = document.querySelector('#closeBtn')
+
+let guidelinesManuallyClosed = false; //flagga för om guidelines har stängts av manuellt
 
 openBtn.addEventListener('click', () => {
+    const cardWasHidden = card.classList.contains('hidden') //kollar om formuläret är stängt
+
     card.classList.toggle('hidden');  
+
+    if(cardWasHidden) {
+        //om formuläret öppnades vid 'click'-> visa guidelines
+        if (!guidelinesManuallyClosed){
+            guidelinesCard.classList.remove('hidden');
+        }
+    } else {
+        // om formuläret stängdes vid 'click'-> flagga nollställs och guidelines stängs
+        guidelinesManuallyClosed = false;
+        guidelinesCard.classList.add('hidden') 
+    }
+});
+
+// Stäng guidelines kortet manuellt
+closeBtn.addEventListener('click', () => {
+    guidelinesCard.classList.add('hidden');
+    guidelinesManuallyClosed = true;
 });
 
 
@@ -143,4 +166,6 @@ form.addEventListener("submit", async (e) => {
   gifSearchInput.value = '';
   gifResults.innerHTML = '';
   clearSelectedGif();
+  guidelinesCard.classList.add('hidden') //guidelines stängs
+  guidelinesManuallyClosed = false; // flagga nollställs
 });
