@@ -1,57 +1,68 @@
-.about-container {
+    html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+
+}
+    .about-container {
+      display: flex;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .about-box {
+      background-color:white;
+      border: 8px solid #fcab31;
+      border-radius: 20px;
+      max-width: 600px;
+      width: 100%;
+      padding: 30px;
+      box-sizing: border-box;
+      text-align: center;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .about-box h2.rubrik {
+      font-size: 60px;
+      color: #ff99c8;
+      margin-bottom: 20px;
+      margin-top: 0;
+    }
+
+    .under-text p {
+      line-height: 1.4;
+      font-size: 14px;
+    }
+
+    .about-text h2, 
+    .about-text p,
+    .about-text h3 {
+      margin: 10px 0;
+    }
+
+    /* Footer */
+footer {
+    padding: 1,5rem;
+    background-color: var(--peach);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#foot-sec2 {
     display: flex;
-    gap: 30px;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-/* Vänster kolumn (rubrik + ruta) */
-.left-side {
-    display: flex;
-    flex-direction: column; 
-}
-
-.under-text {
-    margin-top: 10px;
-    max-width: 200px; 
-    text-align: left;
-    font-size: 14px;
-    margin-left: 20px;
-}
-.under-text p {
-    margin: 2px 0; 
-    line-height: 1.2; 
-}
-
-/* Rubriken */
-.rubrik {
-    margin-bottom: 10px; 
-    margin-right: 20px;
-}
-
-.ruta {
-    background-color: white;                   
-    width: 200px;
-    min-height: 200px;
-    padding: 30px;
-    border: 5px solid orange;      
-    border-radius: 15px;
-    margin: 15px auto;              
-    text-align: center;
-    font-weight: bold;
-    margin-right: 30px;
-
-}
-
-.about-container {
-    display: flex;           
-    align-items: flex-start; 
-    gap: 20px;              
-}
-
-
-.about-text {
-    max-width: 600px;      
-    text-align: left;
-    margin-top: 80px;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 }
