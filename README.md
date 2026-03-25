@@ -19,6 +19,10 @@ Pick a gif with your message
 
 Likes leaderboard*
 
+Button to spawn bubbles that can be popped*
+
+
+
 
 **Added by contributor*
 ### Message Board
@@ -56,5 +60,6 @@ Profanity filter [Mohammed](https://github.com/mohammed-alpha91)
 
 Likes leaderboard [Isak](https://github.com/Isakgit24)
 
+Button to spawn bubbles that pop when you press them [Elias](https://github.com/eliassjoholm)
 
 ## Sources
