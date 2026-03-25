@@ -30,3 +30,7 @@ button {
     border-radius: 5px;
     margin: 10px;
 }
+
+body.dark p {
+    color:white;
+}

@@ -5,6 +5,7 @@
   --secondary: #ff99c8;
   --white: #fffef1;
   --peach: #fcab31;
+  --darkPeach: #363635;
 }
 
 body {
@@ -18,6 +19,16 @@ body {
     font-family: chicle;
     text-align: center;
 }
+
+body.dark {
+    background-color:#363627ed; 
+}
+
+body.dark h1 {
+    color:white;
+}
+
+
 
 header {
     padding: 0.5rem;

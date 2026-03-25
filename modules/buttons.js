@@ -26,3 +26,20 @@ window.addEventListener('click', (event) => {
     }
 });
 
+
+const darkMode = document.querySelector('#darkBtn');
+darkMode.addEventListener('click', ()=>{
+   document.body.classList.toggle('dark');
+  
+});
+
+
+
+const darkModeMobile = document.querySelector('#darkModeMobile');
+darkModeMobile.addEventListener('click', ()=>{
+  document.body.classList.toggle('dark');
+  
+});
+
+
+
